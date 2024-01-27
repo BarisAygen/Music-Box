@@ -1,0 +1,59 @@
+.main-navbar .active {
+    background-color: var(--thirdColor);
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primaryColor);
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    border-radius: 1rem;
+}
+
+.main-navbar .title {
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-left: 6rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--fourthColor);
+}
+
+.main-navbar ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+.main-navbar ul li {
+    list-style: none;
+}
+
+.main-navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--fourthColor);
+    padding: 0.5rem;
+    margin: 0 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.main-navbar ul li a:hover {
+    background-color: var(--thirdColor);
+}
+
+.main-navbar ul li a.active:hover {
+    background-color: var(--thirdColor);
+}
+
+.main-navbar .leftSide img{
+    width: 4rem;
+    border-radius: 0.5rem;
+}
+
+.logo {
+    position: absolute;
+    top: 0.5rem;
+}
