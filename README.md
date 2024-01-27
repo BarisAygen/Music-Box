@@ -1,1 +1,2 @@
 # Music-Box
+This is a web application which contains both backend and frontend code. You can create an account and login to like, rate songs in the system. You can also upload a song from spotify to this web application's database. It provides statistics about your account and general likes, rates by applying filters. Application also offers recommendations by using four different algorithms. You can add friends and personalize your profile.
